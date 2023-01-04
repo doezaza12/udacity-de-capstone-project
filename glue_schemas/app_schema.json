@@ -1,0 +1,48 @@
+{
+  "title": "app",
+  "type": "object",
+  "properties": {
+    "appstore_app_id": {
+      "type": "string"
+    },
+    "playstore_app_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "content_rating": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "free": {
+      "type": "boolean"
+    },
+    "appstore_rating": {
+      "type": "number"
+    },
+    "playstore_rating": {
+      "type": "number"
+    },
+    "rating_count_on_ios": {
+      "type": "integer"
+    },
+    "installs": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "appstore_app_id"
+  ]
+}

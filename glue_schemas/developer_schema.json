@@ -1,0 +1,24 @@
+{
+  "title": "developer",
+  "type": "object",
+  "properties": {
+    "developer_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "multi_platform": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "developer_id"
+  ]
+}

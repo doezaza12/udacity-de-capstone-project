@@ -1,0 +1,28 @@
+{
+  "title": "time",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "day": {
+      "type": "integer"
+    },
+    "month": {
+      "type": "integer"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "week": {
+      "type": "integer"
+    },
+    "weekday": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "date"
+  ]
+}
