@@ -15,9 +15,6 @@
       "type": "string",
       "format": "date"
     },
-    "installs": {
-      "type": "string"
-    },
     "rating": {
       "type": "number"
     },
